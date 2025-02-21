@@ -217,7 +217,7 @@ def generate_condition(birthday,today, deceased_date_time, patient_id, encounter
         ),
         encounter=Reference(
             reference=f"{encounter_id}",
-            display="Fake encounter id associated with this condition"
+            display="Encounter id associated with this condition"
         ),
         onsetDateTime=onset_date_time.isoformat(),
         abatementDateTime=abatement_date_time.isoformat(),
